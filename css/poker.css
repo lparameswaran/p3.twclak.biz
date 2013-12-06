@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 20px;
+  color: #6D929B;
+  background: #ACD1E9;
+}
+
+.div-title {
+  align: right;
+  margin: 100px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.div-game {
+  margin: 3% auto;
+  width: 700px;
+  color: #6D929B;
+}
+.div-pay {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  font-weight: bold;
+  color: #6D929B;
+  border: 2px solid #7F7F7F;
+}
+.table-pay {
+  margin: auto;
+}
+.table-pay td {
+  border: 1px solid #5F0000;
+}
+.div-pay-hand {
+  width: 250px;
+  font-family: Verdana;
+  font-size: 17px;
+  text-align: left;
+}
+.div-pay-money {
+  width: 70px;
+  font-family: Courier;
+  font-size: 20px;
+  text-align: right;
+}
+
+.div-board {
+  position: relative;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  color: #B7AFA3;
+}
+
+.table-score {
+  margin: auto;
+}
+.div-credit, .credit, .div-bet, .bet {
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: bold;
+}
+.div-credit {
+  text-align: right;
+  color: #00AF00;
+  background: transparent;
+}
+.credit {
+  padding-left: 5px;
+  color: #00FF00;
+  background: transparent;
+}
+.blank {
+  width: 100px;
+}
+.div-bet {
+  text-align: right;
+  color: #AF0000;
+  background: transparent;
+}
+.bet {
+  padding-left: 5px;
+  color: #FF0000;
+  background: transparent;
+}
+
+.table-cards {
+  margin: auto;
+}
+.img-card {
+  overflow: hidden;
+  margin: 30px 15px 25px;
+}
+
+.messagerow {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.div-message {
+  text-align: center;
+  font-size: 20px;
+}
+
+.div-button {
+  position: relative;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+.bn {
+  width: 100px;
+}
+
+.span-preload {
+  display: none;
+}
+
+
+
