@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
    <title>Casino Flip Poker</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="keywords" content="games,poker" />
@@ -30,7 +29,7 @@
 <div id="div-game" class="div-game">
    <div id="div-pay" class="div-pay">
       <div id="div-title" class="div-title label label-success">Casino Flip Poker - Good Luck!</div>
-      <table id="table-pay" class="table-pay" cellspacing="0" cellpadding="0">
+      <table id="table-pay" class="table-pay">
          <script type="text/javascript">
             var type, id, index;
             var payTable = [
@@ -93,7 +92,7 @@
          </table>
        </div>
        <div id="div-board" class="div-board">
-          <table id="table-score" class="table-score" cellspacing="0" cellpadding="0">
+          <table id="table-score" class="table-score">
              <tr>
                 <td><div id="div-credit" class="div-credit">Credit:</div></td>
                 <td><div id="credit" class="credit"></div></td>
@@ -102,13 +101,13 @@
                 <td><div id="bet" class="bet"></div></td>
              </tr>
           </table>
-          <table id="table-cards" class="table-cards" cellspacing="0" cellpadding="0">
+          <table id="table-cards" class="table-cards">
               <tr>
-                  <td><img id="card0" class="img-card" src="images/reverse.png" onclick="game.onDiscard(0);" /></td>
-                  <td><img id="card1" class="img-card" src="images/reverse.png" onclick="game.onDiscard(1);" /></td>
-                  <td><img id="card2" class="img-card" src="images/reverse.png" onclick="game.onDiscard(2);" /></td>
-                  <td><img id="card3" class="img-card" src="images/reverse.png" onclick="game.onDiscard(3);" /></td>
-                  <td><img id="card4" class="img-card" src="images/reverse.png" onclick="game.onDiscard(4);" /></td>
+                  <td><img id="card0" class="img-card" alt="Card#1" src="images/reverse.png" onclick="game.onDiscard(0);" /></td>
+                  <td><img id="card1" class="img-card" alt="Card#2" src="images/reverse.png" onclick="game.onDiscard(1);" /></td>
+                  <td><img id="card2" class="img-card" alt="Card#3" src="images/reverse.png" onclick="game.onDiscard(2);" /></td>
+                  <td><img id="card3" class="img-card" alt="Card#4" src="images/reverse.png" onclick="game.onDiscard(3);" /></td>
+                  <td><img id="card4" class="img-card" alt="Card#5" src="images/reverse.png" onclick="game.onDiscard(4);" /></td>
               </tr>
               <tr><td colspan="5" id="messagerow" class="messagerow">
                   <span id="div-message"
